@@ -1,6 +1,7 @@
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import tailwindcss from '@tailwindcss/vite';
+import { Head } from './www/.nuxt/components';
 
 const currentDir = dirname(fileURLToPath(import.meta.url));
 
@@ -18,6 +19,11 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     // 'nuxt-component-meta',
   ],
+  head: {
+    link: [
+      { rel: 'icon', type: 'image/png', href: '/logo.png' },
+    ],
+  },
   shadcn: {
     prefix: 'Ui',
     componentDir: join(currentDir, './components/ui'),
