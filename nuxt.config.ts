@@ -19,11 +19,6 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     // 'nuxt-component-meta',
   ],
-  head: {
-    link: [
-      { rel: 'icon', type: 'image/png', href: '/logo.png' },
-    ],
-  },
   shadcn: {
     prefix: 'Ui',
     componentDir: join(currentDir, './components/ui'),
