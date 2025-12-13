@@ -47,13 +47,22 @@
 </template>
 
 <script lang="ts" setup>
+import wechatAvatar from '@/assets/wechat.png';
+
 const sponsorBadgeTypeClass: Record<string, string> = {
   afdian: 'bg-purple-300 text-white',
   wechat: 'bg-green-300 text-white',
   alipay: 'bg-blue-300 text-white',
 };
 
-const sponsors = [
+const sponsors = ref([
+  {
+    name: '*食',
+    avatar: wechatAvatar,
+    badge: '微信',
+    badgeType: 'wechat',
+    amount: 15,
+  },
   {
     name: '夜梦',
     avatar: 'https://pic1.afdiancdn.com/user/user_upload_osl/e8c76ce7a8d0823ddeaac5f39e2c3b6b_w132_h132_s4.jpeg?imageView2/1/w/240/h/240',
@@ -373,7 +382,7 @@ const sponsors = [
     badgeType: 'afdian',
     amount: 5,
   },
-];
+]);
 </script>
 
 <style>
