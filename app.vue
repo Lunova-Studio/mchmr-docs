@@ -40,7 +40,7 @@ import Toaster from '@/components/ui/toast/Toaster.vue';
 const { page } = useContent();
 const config = useConfig();
 const route = useRoute();
-const { themeClass, radius } = useThemes();
+const { radius } = useThemes();
 
 const baseRouteName = computed(() => useRouteBaseName()(route));
 
@@ -52,7 +52,7 @@ useSeoMeta({
 
 useHead({
   bodyAttrs: {
-    class: themeClass.value,
+    class: 'theme-red',
     style: `--radius: ${radius.value}rem;`,
   },
 });
