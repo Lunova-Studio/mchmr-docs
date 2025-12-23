@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-muted-foreground py-6 md:px-8 md:py-0">
+  <footer class="text-muted-foreground py-6 md:px-8 md:py-0 my-12">
     <div class="container flex flex-col items-center justify-between gap-2 md:h-24 md:flex-row">
       <div class="py-1">
         <p class="text-sm">
@@ -15,6 +15,10 @@
           ><span>甘公网安备62011102000239号</span></a>
         </p>
         <MDC :value="$t(footer.credits)" class="text-sm" />
+        <!-- @vue-ignore -->
+        <MDC :value="$t(footer.credits2)" class="text-sm" />
+        <!-- @vue-ignore -->
+        <MDC :value="$t(footer.credits3)" class="text-sm" />
       </div>
       <span class="flex-1" />
       <div class="flex flex-wrap gap-2 justify-center md:justify-end">

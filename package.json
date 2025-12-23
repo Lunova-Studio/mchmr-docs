@@ -58,6 +58,7 @@
     "@nuxtjs/mdc": "^0.17.1",
     "@tailwindcss/vite": "^4.1.11",
     "@ztl-uwu/nuxt-content": "^2.13.8",
+    "baseline-browser-mapping": "^2.9.11",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "fontaine": "^0.6.0",

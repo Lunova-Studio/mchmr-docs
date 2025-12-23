@@ -57,6 +57,13 @@ const sponsorBadgeTypeClass: Record<string, string> = {
 
 const sponsors = ref([
   {
+    name: '*片',
+    avatar: wechatAvatar,
+    badge: '微信',
+    badgeType: 'wechat',
+    amount: 30,
+  },
+  {
     name: '*食',
     avatar: wechatAvatar,
     badge: '微信',

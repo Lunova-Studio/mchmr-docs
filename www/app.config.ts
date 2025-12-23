@@ -14,7 +14,7 @@ export default defineAppConfig({
     },
     theme: {
       customizable: false,
-      color: 'Rose',
+      color: 'red',
       radius: 1,
     },
     banner: {
@@ -163,6 +163,8 @@ export default defineAppConfig({
     footer: {
       border: true,
       credits: 'FOOTER_CREDIT',
+      credits2: 'FOOTER_CREDIT2',
+      credits3: 'FOOTER_CREDIT3',
       links: [
         {
           icon: 'lucide:heart',

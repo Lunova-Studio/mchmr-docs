@@ -14,6 +14,8 @@ authors:
 
 如果你有什么建议或者反馈想对我们提出，你可以加入 QQ 群反馈，我们会在 QQ 群中进行回复。
 
+## 常见问题
+
 ::accordion{default-value="first-item" collapsible}
   ::accordion-item{value="first-item"}
   #title
@@ -37,7 +39,7 @@ authors:
   1. 用户未按要求在 `webConfig.js` 中配置后端公网地址。
 
      解决方案：打开 `webConfig.js` 文件，将 `webApiBaseUrl` 的值修改为你后端的公网地址，通常情况下是你的公网 IP 和后端端口的拼接，此处可以使用域名。
-     
+
      修改完成后使用快捷键 `Ctrl + F5` 强制刷新页面，或者手动清除浏览器缓存。
 
   2. 浏览器缓存问题
@@ -60,4 +62,13 @@ authors:
   1. 用户未按要求在 Nginx 的 `nginx.conf` 中配置伪静态。
 
      解决方案：打开 Nginx 的 `nginx.conf` 文件，在 `server` 块中添加 `location / { try_files $uri $uri/ /index.html; }`，如果没有 `server` 块，请参照上方自行添加。
+
+  ::accordion-item
+  #title
+  感兴趣 Token 失效，10 分钟后再试
+
+  #content
+  1. 用户在制作完客户端包后，未删除首次获取的 Token，需要分发客户端包前删除 Token。
+
+     解决方案：打开客户端文件夹 `mchmr`，找到 `config.json` 文件，删除其中的 `token` 字段。
 ::

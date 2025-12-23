@@ -24,7 +24,9 @@ export default defineI18nConfig(() => ({
       'Create Issues': 'Create Issues',
 
       // Footer
-      'FOOTER_CREDIT': 'Copyright © 2022-present Lunova Studio. All rights reserved. Released under the MIT License.<br>The Minecraft trademark is owned by Mojang Synergies AB. This site has no affiliation with Mojang. <br>Our studio\'s software and other services are related to Minecraft(a game by Mojang Synergies AB), comply with its trademark usage <a href="https://www.minecraft.net/zh-hans/usage-guidelines" target="_blank" class="underline hover:text-foreground">rules</a>, and are unrelated to NetEase(China).',
+      'FOOTER_CREDIT': 'Copyright © 2022-present Lunova Studio. All rights reserved. Released under the MIT License.',
+      'FOOTER_CREDIT2': 'The Minecraft trademark is owned by Mojang Synergies AB. This site has no affiliation with Mojang. ',
+      'FOOTER_CREDIT3': 'Our studio\'s software and other services are related to Minecraft(a game by Mojang Synergies AB), comply with its trademark usage rules, and are unrelated to NetEase(China).',
       'Sponsor Me': 'Sponsor Me',
     },
     'zh-CN': {
@@ -49,7 +51,9 @@ export default defineI18nConfig(() => ({
       'Create Issues': '提交反馈（Issues）',
 
       // Footer
-      'FOOTER_CREDIT': 'Copyright © 2022-present Lunova Studio. All rights reserved. Released under the MIT License.<br>Minecraft 商标归 Mojang Synergies AB 所有，本站与其没有从属关系。<br>本工作室提供的软件等服务均与 Mojang Synergies AB 旗下的 Minecraft 游戏相关，合理遵守其<a href="https://www.minecraft.net/zh-hans/usage-guidelines" target="_blank" class="underline hover:text-foreground">商标</a>使用规定，与中国网易公司无关。',
+      'FOOTER_CREDIT': 'Copyright © 2022-present Lunova Studio. All rights reserved. Released under the MIT License.',
+      'FOOTER_CREDIT2': 'Minecraft 商标归 Mojang Synergies AB 所有，本站与其没有从属关系。',
+      'FOOTER_CREDIT3': '本工作室提供的软件等服务均与 Mojang Synergies AB 旗下的 Minecraft 游戏相关，合理遵守其商标使用规定，与中国网易公司无关。',
       'Sponsor Me': '支持我（赞助）',
     },
     'zhtw': {
@@ -73,7 +77,9 @@ export default defineI18nConfig(() => ({
       'Create Issues': '提交回饋（Issues）',
 
       // Footer
-      'FOOTER_CREDIT': 'Copyright © 2022-present Lunova Studio. All rights reserved. Released under the MIT License.<br>Minecraft 商標归 Mojang Synergies AB 所有，本站与其没有从属关系。<br>本工作室提供的軟體等服務均與 Mojang Synergies AB 旗下的 Minecraft 遊戲相關，合理遵守其<a href="https://www.minecraft.net/zh-hans/usage-guidelines" target="_blank" class="underline hover:text-foreground">商標</a>使用規定，與中國网易公司無關。',
+      'FOOTER_CREDIT': 'Copyright © 2022-present Lunova Studio. All rights reserved. Released under the MIT License.',
+      'FOOTER_CREDIT2': 'Minecraft 商標归 Mojang Synergies AB 所有，本站与其没有从属关系。',
+      'FOOTER_CREDIT3': '本工作室提供的軟體等服務均與 Mojang Synergies AB 旗下的 Minecraft 遊戲相關，合理遵守其商標使用規定，與中國网易公司無關。',
       'Sponsor Me': '支持我（贊助）',
     },
   },
