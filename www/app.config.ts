@@ -20,9 +20,9 @@ export default defineAppConfig({
     banner: {
       enable: true,
       showClose: true,
-      content: 'McHMR 快报：McHMR 团队已完全开放源代码，接受社区贡献，点击 Github 按钮查看。',
+      content: '文档已迁移，请前往新的文档站点阅读最新内容。',
       to: '#',
-      target: '_self',
+      target: '_blank',
       border: true,
     },
     header: {
